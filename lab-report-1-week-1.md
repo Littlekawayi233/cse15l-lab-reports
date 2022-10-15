@@ -10,7 +10,9 @@ Remotely Connecting:You can go to https://sdacs.ucsd.edu/~icc/index.php to find 
 
 Part 3
 ![Image](new%203.png)
- Trying Some Commands: Try running different commands both on your computer and on the remote sever. For example: ls, pwd, and cat. For example, I  printed out the working directory by typing “pwd”.
+![Image](7.png)
+![Image](8.png)
+ Trying Some Commands: Try running different commands both on your computer and on the remote sever. For example: ls, pwd, and cat. For example, I printed out the working directory by typing “pwd” and"ls" to show files in current directory.
 
 
 Part 4
