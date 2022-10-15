@@ -12,7 +12,7 @@ Part 3
 ![Image](new%203.png)
 ![Image](7.png)
 ![Image](8.png)
- Trying Some Commands: Try running different commands both on your computer and on the remote sever. For example: ls, pwd, and cat. For example, I printed out the working directory by typing “pwd” and"ls" to show files in current directory.
+ Trying Some Commands: Try running different commands both on your computer and on the remote sever. For example: ls, pwd, and cat. For example, I printed out the working directory by typing “pwd”. I also typed "ls" to show files in current directory.
 
 
 Part 4
