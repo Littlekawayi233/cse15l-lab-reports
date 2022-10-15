@@ -5,7 +5,7 @@ Install Visual Studio Code: We need to go to the official website of Visual Stud
 
 Part 2
 ![Image](2.png)
-Remotely Connecting:You can go to https://sdacs.ucsd.edu/~icc/index.php to find your student account and follow [TUTORIAL] How to Reset your Password to reset your password. Then we need to type $ssh cs15lfa22jj@ieng6.ucsd.edu to connect the remote server. If you are first time connecting to the server, there might be some messages. Just say yes to these messages and give your password to connect the server.
+Remotely Connecting:You can go to https://sdacs.ucsd.edu/~icc/index.php to find your student account and follow the instructions on the website to reset your password. Then we need to type $ssh cs15lfa22jj@ieng6.ucsd.edu(use your own account) to connect the remote server. If you are first time connecting to the server, there might be some messages. Just say yes to these messages and give your password to connect the server.
 
 
 Part 3
@@ -29,9 +29,9 @@ class WhereAmI {
 
 Part 5
 ![Image](5.png)
- Setting an SSH Key: The reason we set an SSH Key is every time we log in and run scp, we have to type password. By setting an SSH key, we will save a lot of time. Type $ ssh-keygen to generate public/rsa key pair. When you see "Enter file in which to save the key (/Users/joe/.ssh/id_rsa)" press enter again. Then copy the public key to the .ssh directory of your user account.After that, you don’t need to password to login remote server.
+ Setting an SSH Key: The reason we set an SSH Key is every time we log in and run scp, we have to type password. By setting an SSH key, we will save a lot of time. Type $ ssh-keygen to generate public/rsa key pair. When you see "Enter file in which to save the key (/Users/joe/.ssh/id_rsa)" press enter again. If you use Windows, follow the extra ssh-add steps here: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation. Then copy the public key to the .ssh directory of your user account.After that, you don’t need to type password to login remote server.
 
 part 6
 ![Image](6.png)
- Optimizing Remote Running: You can write command in quotes after ssh command to run it on remote server. For example:  ssh cs15lfa22@ieng6.ucsd.edu "ls" This command will list the home directory on remote server. One more way to optimize is to use semicolons to run multiple commands on one line. For example:  cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI. 
+ Optimizing Remote Running: You can write command in quotes after ssh command to run it on remote server. For example:  ssh cs15lfa22@ieng6.ucsd.edu "ls" This command will list the home directory on remote server. One more way to optimize is to use semicolons to run multiple commands on one line. For example:  cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI. These tricks are gonna save your time and reduce some lines of code.
 
