@@ -2,7 +2,7 @@
 
 ## less plos/pmed.0010029.txt
 ```
-There is a much-quoted saying, attributed to the epidemiologist Geoffrey Rose: “A large
+        There is a much-quoted saying, attributed to the epidemiologist Geoffrey Rose: “A large
         number of people exposed to a small risk may generate many more cases than a small number
         exposed to a very high risk.” This is true for many individual risk factors such as salt
         intake (linked to high blood pressure and cardiovascular disease) and speeding on the
@@ -124,7 +124,7 @@ zhaoyudou@Zhaoyus-MacBook-Air plos % tail -40 pmed.0010029.txt
         essential aids in guiding the distribution of limited funds to lower the burden of life
         years lost to premature death and disability.
 ```
-        The tail command displays the last ten lines of a file by default. If we want to show the exact line of a file from the last, we could add -n to this command. For example, I use wc command to know that this file has a total of 40 lines, so the tail -40 commmand would display all the contents. It's useful because we can modify the number to show the contents that we would like to see.
+The tail command displays the last ten lines of a file by default. If we want to show the exact line of a file from the last, we could add -n to this command. For example, I use wc command to know that this file has a total of 40 lines, so the tail -40 commmand would display all the contents. It's useful because we can modify the number to show the contents that we would like to see.
         
 ### 3.
 ```
